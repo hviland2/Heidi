@@ -102,10 +102,8 @@ float: right;
 margin-bottom:50px;
 margin-right:30px;
 }
-.breaking{
-max-width: 30%;
-max-height: 30%;
-border: 5px solid lightcoral;
+.weatherSummary{
+    background-image: url("/cit230/Lesson6/images/cit230_image_franklinOriginal.jpeg")
 }
 @media only screen and (min-width: 32.5em) {
 
