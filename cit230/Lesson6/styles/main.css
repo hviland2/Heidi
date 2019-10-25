@@ -19,11 +19,11 @@
    
 
 #preston{
-background-image: url("/cit230/Lesson6/images/cit230_image_franklinOriginal-min_50.jpeg");
-height:1000px;
-width:100%;
-color:white;
-}
+    background-image: url("/cit230/Lesson6/images/cit230_image_franklinOriginal-min_50.jpeg");
+    height:1000px;
+    width:100%;
+    color:white;
+    }
 #chill{
     border: 2px solid white;
     font-size:20px;
