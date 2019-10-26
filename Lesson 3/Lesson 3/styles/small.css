@@ -1,0 +1,93 @@
+li {
+    list-style: none;
+    padding-left: 0;
+    display:table;
+}
+li a{
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+
+}
+h1{
+    display:grid;
+}
+ul{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+.scenarios{
+  background-color:#ebebeb;
+  width: 250px;
+  border: 15px solid black;
+  padding: 50px;
+  margin: 20px;
+}
+.personas{
+    background-color:#ebebeb;
+    width: 250px;
+    border: 15px solid black;
+    padding: 50px;
+    margin: 20px;
+  }
+  .audience{
+    background-color:#ebebeb;
+    width: 250px;
+    border: 15px solid black;
+    padding: 50px;
+    margin: 20px;  
+  }
+  .main{
+    display:flex;
+    flex-direction: row;
+  }
+
+.alphabet{
+  font-size: 50px;
+}
+.colorscheme{
+    max-width:100%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #B3E3E3;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: #B3E3E3;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+.topnav {
+  overflow: hidden;
+  background-color:black;
+}
+
+.topnav a {
+  float: left;
+  color: #B3E3E3;
+  text-align: center;
+  padding:5px;
+  font-size: 17px;
+  
+}
+
+.topnav a:hover {
+  background-color: #52489C;
+  color:#ebebeb;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: #ebebeb;
+}
+#cloudlogo{
+height:90px;
+}

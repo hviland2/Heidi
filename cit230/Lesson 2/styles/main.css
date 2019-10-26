@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     box-sizing: border-box;
   }
@@ -62,4 +63,70 @@
   
   a:active {
     color: turquoise;
+=======
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color:#f1ffed;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #d4ffc7;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 1px 1px #4c7a3e;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    font-size:15px;
+  }
+  .paragraph{
+    font-size: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #pinterest{
+      float: left;
+      width:95%;
+      padding: 15px;
+  }
+  #ikea{
+      float: left;
+      width:95%;
+      padding: 15px;
+  }
+  #wellington{
+      float: left;
+      width:95%;
+      padding: 15px;
+  }
+  a:link {
+    color: orange;
+  }
+  
+  a:visited {
+    color: green;
+  }
+  
+  a:hover {
+    color: hotpink;
+  }
+  
+  a:active {
+    color: turquoise;
+>>>>>>> ef7cf5635a01354b7fd82bc5a446741da3735f56
   }
