@@ -1,1 +1,4 @@
-$("img.gallery-item").lazyload();
+$("img.gallery-image").lazyload();
+window.addEventListener("load", function(event) {
+  img();
+});
