@@ -45,7 +45,7 @@ body {
     transition: transform 400ms ease-out;
 }
 
-.gallery-image:hover {
+.lazyload:hover {
 	transform: scale(1.5);
 }
 
