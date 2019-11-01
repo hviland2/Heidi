@@ -1,0 +1,63 @@
+nav {
+    background-color: #b3e3e3;
+    color: black;
+    margin: 0 auto;
+    max-width: 1100px;
+    text-align: center;
+    
+    
+    }
+    nav label {
+    margin-top: 21px;
+    display: block;
+    padding: 10px;
+    
+    }
+    
+    .list {
+    font-size: 1.2em;
+    line-height: 40px;
+    padding: 0;
+    list-style: none;
+    display: none;
+    }
+    
+    #menuText:checked ~ .list{
+    display: block;
+    }
+    
+    nav input {
+    display: none;
+    }
+    
+    ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    padding-left: 0;
+    justify-content: space-around;
+    
+    }
+    
+    li {
+     min-width: 150px;
+     flex-basis: 12.5%;
+    
+    }
+    .list a:visited{
+        background-color:#ebebeb;
+    }
+    
+    .list a:hover {
+     background-color: #ebebeb;
+     padding: 8px;
+     border-radius: 4px;
+    }
+    .list a:active{
+     background-color:#ebebeb;
+    
+    }
+    
+    .responsive li {
+     display: block;
+    }
