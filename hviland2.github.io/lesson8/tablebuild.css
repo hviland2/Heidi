@@ -1,0 +1,44 @@
+table {
+    font-family: 'Asap Condensed', sans-serif;    
+}
+table,tr,th,td {
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
+    padding: 5px;
+  
+}
+table {
+    box-shadow: 5px 5px 0 0 lightgray;
+}
+td {
+    text-align: center;
+}
+th[colspan="3"] {
+    background-color: #7fb9c2;
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+}
+th {
+    background-color: #628ca6; 
+    color: white; 
+}
+tr:nth-child(even) {
+    background-color: #e7ffed;
+}
+tr {
+    background-color: #e7f0ed;
+}
+td[colspan="3"] {
+    background-color:  #7fb9c2;
+}
+#single {
+    background-color:  #628ca6;
+    color: white;
+}
+td[colspan="1"]{
+    font-style: italic;
+}
+tfoot td[colspan="3"]{
+    font-size: x-small;
+}
