@@ -14,13 +14,11 @@
 <style>
 ul{
     list-style-type: none;
-  margin: 0;
-  padding: 0;
+  padding: 10px;
   overflow: hidden;
   background-color: #333;
   top: 0;
   width: 100%;
-  margin: 10px;
 }
 li{
     text-decoration: none;
@@ -89,6 +87,69 @@ a:active {
   color: #FEFAFA;
 }
 
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  border: 5px inset #F6E8EA;
+}
+
+
+input[type=submit] {
+  background-color: #FEFAFA;
+  color: grey;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #F6E8EA;
+}
+
+.contact {
+  background-color: #B2FFC6;
+  padding: 10px;
+  border: 5px inset #F6E8EA;
+  max-height: 100%;
+  max-width: 100%;
+  float: center;
+  margin: 20px;
+}
+label{
+        font-family:'Cinzel', serif;
+}
+input: text{
+        font-family: 'Quicksand', sans-serif;
+}
+::placeholder{
+        font-family: 'Quicksand', sans-serif;  
+}
+#submit{
+        font-family: 'Cinzel', serif;
+}
+#contact > h2{
+        text-align:center;
+        font-family: 'Cinzel Decorative', cursive;
+     
+}
+#contact{
+        border: 5px solid #F6E8EA;
+        margin: 10px;
+        text-align: center;
+        background-color: #FEFAFA;
+
+}
+body{
+        font-family: 'Quicksand', sans-serif;
+}
+iframe{
+        max-width: 100%;
+}
 </style>
 
 <body>
@@ -101,6 +162,34 @@ a:active {
                 <li><a href="services.html">Services</a></li>
                 <li><a href="contact.html">Contact</a></li>
         </ul>
+
+
+        <div class="contact">
+                <form action="thanks.html">
+              
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="example: John">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="example: Smith">
+              
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Type your Questions or comments here!" style="height:200px"></textarea>
+              
+                  <input id="submit" type="submit" value="Submit">
+              
+                </form>
+              </div>
+
+              <div id="contact"><h2>Contact Us</h2>
+                <br> <h3>Phone:</h3> (555)-555-5555</br>
+                <br class="phone"> <h3>Email:</h3> templeinn@gmail.com</br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.405019701325!2d-77.09772048522673!3d38.983251779557506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1575859884278!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                
+                
+                </div>
+        
 
 
 

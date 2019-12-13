@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="styles/small.css" rel= "stylesheet">
+        <link href="styles/medium.css" rel= "stylesheet">
+        <link href="styles/large.css" rel= "stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+<head>
+<style>
+h2{
+        text-align: center;
+        font-family: 'Cinzel', serif;
+        font-size: 30px;
+}
+h3{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    text-decoration: underline;
+    padding-left: 30px;
+}
+div.gallery {
+  border: 3px inset #F6E8EA;
+  background-color: #FEFAFA;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.about{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #FEFAFA;
+    text-align: center;
+}
+.about > h3{
+    font-family: 'Cinzel', serif;
+}
+.hall{
+    border: 2px inset #B2FFC6;
+    margin: 5px;
+}
+.hall > p{
+    text-align: center;
+}
+.vendors{
+    border: 2px inset #B2FFC6;
+    margin: 5px;
+}
+.vendors{
+    padding-left: 10px;
+    background-color: #FEFAFA;
+}
+ul{
+    list-style-type: none;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #333;
+  top: 0;
+  width: 100%;
+}
+li{
+    text-decoration: none;
+  float: left;
+  color: #FEFAFA;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+h1{
+        font-family:'Cinzel', serif;
+        padding-left: 16px;
+        font-size: 40px;
+        text-align: center;
+}
+.logo{
+        height:100px;
+        float:left;
+        margin-top:-25px
+
+}
+ul{
+        font-family: 'Quicksand', sans-serif;
+
+
+}
+.list{
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  border: 5px inset #F6E8EA;
+}
+
+
+input[type=submit] {
+  background-color: #FEFAFA;
+  color: grey;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #F6E8EA;
+}
+
+.contact {
+    background-color:#EDFFF1;
+  padding: 10px;
+  border: 5px inset #F6E8EA;
+  max-height: 100%;
+  max-width: 100%;
+  float: center;
+  align-content:center;
+  margin: 20px;
+  display: flex;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+label{
+        font-family:'Cinzel', serif;
+}
+input: text{
+        font-family: 'Quicksand', sans-serif;
+}
+::placeholder{
+        font-family: 'Quicksand', sans-serif;  
+}
+#submit{
+        font-family: 'Cinzel', serif;
+}
+#contact > h2{
+        text-align:center;
+        font-family: 'Cinzel Decorative', cursive;
+     
+}
+#contact{
+        border: 5px solid #F6E8EA;
+        margin: 10px;
+        text-align: center;
+        background-color: #FEFAFA;
+
+}
+</style>
+</head>
+<h1> <img class="logo" src="images/temple drawing 1.jpg">Temple Inn & Suites</h1>
+        <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#">Temple</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+        </ul>
+<body>
+    
+    <div class="about">
+        <div class="hall">
+            <h2>Full Time Missionaries</h2>
+        <p>
+                Temple Inn & Suites wants to provide an amazing experience for missionaries out serving, that they might have a comfortable place to rest, study, and feel the spirit. We provide 2 bedroom suites just for missionaries serving at our specified temples.
+        </p>
+        <h3 class="special">Ammenities</h3>
+        <p> Our Rooms include:
+            <div class="list">
+                <br>2 Full Beds
+                <br>2 closets
+                <br>A kitchen with a full sized refrigerator and microwave, stove, oven, cabinets, sink and marble countertop with 3 chairs
+                <br>1 bathroom with a shower and bathtub
+                <br>Weekly room cleanings
+                <br>Free breakfast (in the lounge)
+            </div>
+    </div>
+       
+        </div>
+        <h3>Questions Specifically for Missionaries? Ask Here:</h3>
+<div class="contact">
+        <form action="thanks.html">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="example: John">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="example: Smith">
+      
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Type your Questions or comments here!" style="height:200px"></textarea>
+      
+          <input id="submit" type="submit" value="Submit">
+      
+        </form>
+
+    </div>
+</div>
+
+<h2>Missionary Gallery</h2>
+<div class="responsive">
+  <div class="gallery">
+      <img src="https://www.nycsalisbury.com/uploads/9/8/6/9/98696462/rm801-bedroom_7_orig.jpg" width="600" height="400">
+    </a>
+
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="https://media-cdn.tripadvisor.com/media/photo-s/11/a9/62/49/2-bedroom-suite-kitchen.jpg"  width="600" height="400">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="https://tophotel.news/wp-content/uploads/2016/11/10-Of-The-Most-Luxurious-Hotel-Toiletries-768x512.jpg"  width="600" height="400">
+    </a>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+      <img src="https://grabamile.boardingarea.com/wp-content/uploads/2019/06/HotelIndigoSuiteLES-6-550x367.jpg"  width="600" height="400">
+    </a>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+      <img src="https://i.pinimg.com/originals/35/11/e0/3511e0db609c0ec5df82c80b7ddd6a31.jpg" width="600" height="400">
+    </a>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+      <img src="https://i.redd.it/geqgh95u78d01.jpg" width="600" height="400">
+    </a>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+      <img src="https://q-cf.bstatic.com/images/hotel/max1024x768/161/161499196.jpg"  width="600" height="400">
+    </a>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+      <img src="https://media-cdn.tripadvisor.com/media/photo-s/01/e1/fc/09/the-closets-in-the-bathroom.jpg" width="600" height="400">
+    </a>
+  </div>
+</div>
+<div>
+
+        
+        
+        </div>
+
+
+</body>
+</html>
