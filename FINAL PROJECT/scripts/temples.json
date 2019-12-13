@@ -1,6 +1,7 @@
 {
     "temples": [  
         {
+        "id": "1",
         "name": "Gilber, Arizona Temple",
         "photo": "https://www.ldstemple.pics/wp-content/uploads/gilbert-temple-pink-sunset.jpg",
         "address": "3301 S Greenfield Rd, Gilbert, AZ 85297",
@@ -28,6 +29,7 @@
         ]
     },
         {
+            "id": "2",
             "name": "Salt Lake City, Utah Temple",
             "photo": "https://i.pinimg.com/originals/66/f6/89/66f689b563618f95ee8bb13d986b70fd.jpg",
             "address": "50 N West Temple, Salt Lake City, UT 84150",
@@ -45,6 +47,7 @@
             ]
         },
         {
+            "id": "3",
             "name": "Logan, Utah Temple",
             "photo": "https://images.discerningassets.com/image/upload/c_fit,h_1000,w_1000/c_fit,fl_relative,h_1.0,o_100,w_1.0/v1510003524/Gaving_Vanderbeek_Logan_temple_Sunset_z1j0gt.jpg",
             "address": "175 N 300 E, Logan, UT 84321",
@@ -75,6 +78,7 @@
             ]
         },
         { 
+            "id": "4",
             "name": "San Antonio, Texas Temple",
             "photo": "https://i.pinimg.com/originals/f4/ec/39/f4ec392664d7b627f7610c15280acfaa.jpg",
             "address": "20079 Stone Oak Pkwy, San Antonio, TX 78258",
