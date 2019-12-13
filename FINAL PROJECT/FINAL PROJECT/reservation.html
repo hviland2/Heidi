@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="styles/small.css" rel= "stylesheet">
+        <link href="styles/medium.css" rel= "stylesheet">
+        <link href="styles/large.css" rel= "stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+<head>
+</head>
+<style>
+ul{
+    list-style-type: none;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #333;
+  top: 0;
+  width: 100%;
+}
+li{
+    text-decoration: none;
+  float: left;
+  color: #FEFAFA;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+h1{
+        font-family:'Cinzel', serif;
+        padding-left: 16px;
+        font-size: 40px;
+        text-align: center;
+}
+.logo{
+        height:100px;
+        float:left;
+        margin-top:-25px
+
+}
+ul{
+        font-family: 'Quicksand', sans-serif;
+
+}
+a:link {
+  color: #F6E8EA;
+}
+
+/* visited link */
+a:visited {
+  color: #EDFFF1;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FFFFE5;
+}
+
+/* selected link */
+a:active {
+  color: #FEFAFA;
+}
+.contact {
+  background-color: #B2FFC6;
+  padding: 10px;
+  border: 5px inset #F6E8EA;
+  max-height: 100%;
+  max-width: 100%;
+  display: table;
+  table-layout: auto;
+  margin: 20px;
+  width: 40%;
+}
+label{
+        font-family:'Cinzel', serif;
+        text-decoration: underline;
+}
+input text {
+        font-family: 'Quicksand', sans-serif;
+}
+
+
+::placeholder{
+        font-family: 'Quicksand', sans-serif;  
+}
+#submit{
+        font-family: 'Cinzel', serif;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  border: 5px inset #F6E8EA;
+}
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  border: 5px inset #F6E8EA;
+}
+input[type=date], select, textarea {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  border: 5px inset #F6E8EA;
+}
+input[type=number], select, textarea {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  border: 5px inset #F6E8EA;
+}
+
+
+input[type=submit] {
+  background-color: #FEFAFA;
+  color: grey;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #F6E8EA;
+}
+@media only screen and (max-width: 700px) {
+    .contact {
+  width: 90%;
+  
+}
+ul{width:auto;
+padding: 5px;
+
+}
+}
+
+@media only screen and (max-width: 500px) {
+    .contact {
+  width: 90%;
+  
+}
+ul{padding: 1px;
+font-size: 10px;}
+}
+</style>
+<header>
+<h1> <img class="logo" src="images/temple drawing 1.jpg">Temple Inn & Suites</h1>
+<ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="#">Temple</a></li>
+        <li><a href="reservation.html">Reservation</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+</ul>
+</header>
+<body>
+        
+        <div class="contact">
+                <form action="reservethanks.html">
+              
+                  <label for="fname">First Name</label><br>
+                  <input type="text" id="fname" name="firstname" placeholder="example: John" required><br>
+                  <label for="lname">Last Name</label><br>
+                  <input type="text" id="lname" name="lastname" placeholder="example: Smith" required><br>
+                  <label for="email">Email</label><br>
+                  <input type="email" id="email" name="email" placeholder="johnsmith@gmail.com" required><br>
+                  <label for="arrivalDate">Arrival Date</label><br>
+                  <input type="date" id="aDate" name="arrivalDate" required><br>
+                  <label for="departureDate">Depature Date</label><br>
+                  <input type="date" id="dDate" name="departureDate"><br>
+                  <label for="numAdult">Number Of Adults</label><br>
+                  <input type="number" id="numAdult" name="numAdult" placeholder="2" required><br>
+                  <label for="numChild">Number of Children</label><br>
+                  <input type="number" id="numChild" name="numChild" placeholder="2" required><br>
+                  <label for="checkBox">Please Check if any apply to you:</label><br>
+                  <input type="checkbox" id="checkbox" name="missionary" value="missionary"> I am a missionary
+                <input type="checkbox" id="checkBox" name="wedding" value="receptionHall"> I would like to rent out the reception Hall
+                <br>
+                <br>
+                  <input id="submit" type="submit" value="Submit">
+              
+                </form>
+              </div>
+
+
+
+
+</body>
+</html>
