@@ -10,10 +10,9 @@
         <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
 <head>
-</head>
 <style>
 ul{
-    list-style-type: none;
+list-style-type: none;
   padding: 10px;
   overflow: hidden;
   background-color: #333;
@@ -46,46 +45,53 @@ h1{
 }
 ul{
         font-family: 'Quicksand', sans-serif;
-
-
 }
-.hotel{
-        width: 100%;
-        height: 100%;
-        border: 5px solid #F6E8EA;
-
-}
-a:link {
-  color: #F6E8EA;
+div .gallery {
+  border: 3px inset #F6E8EA;
 }
 
-/* visited link */
-a:visited {
-  color: #EDFFF1;
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+div.gallery :hover{
+    filter: blur(8px);
+  -webkit-filter: blur(4px);
+  transition: .5s ease-in-out;
 }
 
-/* mouse over link */
-a:hover {
-  color: #FFFFE5;
+div.desc {
+  padding: 15px;
+  text-align: center;
+  height: 100%;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #FFFFE5;
 }
 
-/* selected link */
-a:active {
-  color: #FEFAFA;
-}
-h2{
-    font-family: 'Cinzel', serif;
-    font-size: 50px;
-}
-body {
-    font-family: 'Quicksand', sans-serif;
+* {
+  box-sizing: border-box;
 }
 
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 33%;
+}
 
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
 </style>
-
-<body>
-        
+</head>
 <h1> <img class="logo" src="images/temple drawing 1.jpg">Temple Inn & Suites</h1>
         <ul>
                 <li><a href="home.html">Home</a></li>
@@ -95,18 +101,40 @@ body {
                 <li><a href="contact.html">Contact</a></li>
         </ul>
 
-    <div class="thanks">
-        <h2>Thank you!</h2>
-        <p>Thank you for reaching out to us. You should get a response within 1-3 business days. If you have a question that needs immediate response, please call us at: (555)-555-5555.
-        </p>
+</head>
+<body>
+
+<h1>Our Temples</h1>
+
+<div class="responsive">
+  <div class="gallery">
+    <a href="logan.html">
+      <img src="https://www.havenlight.com/images/thumbs/0050772_logan-front_600.jpeg" alt="Loga, UT" width="600" height="400">
+    </a>
+    <div class="desc">Logan, UT Temple</div>
+  </div>
+</div>
 
 
+<div class="responsive">
+  <div class="gallery">
+    <a  href="saltlake.html">
+      <img src="https://i.pinimg.com/564x/23/c7/5d/23c75d52fa2fd47848d904d704e45e59.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Salt Lake City, UT Temple</div>
+  </div>
+</div>
 
-    </div>
-        
-
-
-
+<div class="responsive">
+  <div class="gallery">
+    <a href="provo.html">
+      <img src="https://images.discerningassets.com/image/upload/c_fit,h_1000,w_1000/c_fit,fl_relative,h_1.0,o_100,w_1.0/v1510003524/Gaving_Vanderbeek_Logan_temple_Sunset_z1j0gt.jpg" alt="Provo Temple" width="600" height="400">
+    </a>
+    <div class="desc">Provo City Center Temple UT</div>
+  </div>
+</div>
+  </div>
+</div>
 
 </body>
 </html>
